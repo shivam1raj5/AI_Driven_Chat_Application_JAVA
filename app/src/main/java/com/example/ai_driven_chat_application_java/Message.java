@@ -1,6 +1,6 @@
 package com.example.ai_driven_chat_application_java;
 
-public class message {
+public class Message {
     public static String SENT_BY_ME = "me";
     public static String SENT_BY_BOT="bot";
 
@@ -23,7 +23,7 @@ public class message {
         this.sentBy = sentBy;
     }
 
-    public message(String message, String sentBy) {
+    public Message(String message, String sentBy) {
         this.message = message;
         this.sentBy = sentBy;
     }
